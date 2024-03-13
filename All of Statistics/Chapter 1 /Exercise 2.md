@@ -2,9 +2,11 @@
 
 Prove the statements in equation (1.1).
 
+### Solution
+
 Before addressing the statements in equation (1.1), we use the following lemma.
 
-**Lemma.** $\sigma$-additivity implies additivity. That is, with disjoint $A_1, A_2, ...$,
+**Lemma.** Let $\Omega$ be our universal set and let $P$ be a set function with domain $\mathcal{P} (\Omega)$, the powerset of $\Omega$. If $P$ is $\sigma$-additive, then it is additive. That is, with disjoint $A_1, A_2, ...,$
 
 $$ P\left(\bigcup_{i=1}^{\infty} A_i\right) = \sum_{i=1}^{\infty} P(A_i) \Rightarrow P(A \cup B) = P(A) + P(B) $$
 
