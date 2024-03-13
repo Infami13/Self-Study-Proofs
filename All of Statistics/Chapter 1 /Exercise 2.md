@@ -12,11 +12,11 @@ $$ P\left(\bigcup_{i=1}^{\infty} A_i\right) = \sum_{i=1}^{\infty} P(A_i) \Righta
 
 for disjoint $A$ and $B$.
 
-*Proof.* Suppose $A$ and $B$ are disjoint. We may construct the countable union $\bigcup\nolimits_{i=1}^{\infty} \beta_i$ where $\beta_1 = B$ and $\beta_i = \emptyset$ for $i \gt 1$. We then have
+*Proof.* Suppose $A$ and $B$ are disjoint. We may construct the countable union $\bigcup\nolimits_{i=1}^{\infty} \beta_i$ where $\beta_1 = B$ and $\beta_i = \emptyset$ for $i \gt 1$. Given the $\beta_i$ are mutually disjoint, We then have
 
 $$P(B) = P(B \cup \emptyset \cup \emptyset \cup \cdots) = P\left(\bigcup_{i=1}^{\infty} \beta_i \right) = \sum_{i=1}^{\infty} P(\beta_i)$$
 
-Similarly, we may also construct $\bigcup\nolimits_{i=1}^{\infty} C_i$ where $C_1 = A$, $C_2 = B$, and $C_i = \emptyset$ for $i > 2$. We then have
+Similarly, we may also construct $\bigcup\nolimits_{i=1}^{\infty} C_i$ where $C_1 = A$, $C_2 = B$, and $C_i = \emptyset$ for $i > 2$. As the $C_i$ are mutually disjoint, we then have
 
 $$
 \begin{align}
