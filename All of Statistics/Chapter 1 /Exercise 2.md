@@ -10,14 +10,19 @@ $$ P\left(\bigcup_{i=1}^{\infty} A_i\right) = \sum_{i=1}^{\infty} P(A_i) \Righta
 
 for disjoint $A$ and $B$.
 
-*Proof.* Suppose $A$ and $B$ are disjoint. We may construct the countable union 
+*Proof.* Suppose $A$ and $B$ are disjoint. We may construct the countable union $\bigcup\nolimits_{i=1}^{\infty} \beta_i$ where $\beta_1 = B$ and $\beta_i = \emptyset$ for $i \gt 1$. We then have
 
-$$\bigcup\limits_{i=1}^{\infty} C_i \textrm{ where } C_1 = A, C_2 = B, \textrm{and } C_i = \emptyset \textrm{ for } i \ge 3.$$  
+$$P(B) = P(B \cup \emptyset \cup \emptyset \cup \cdots) = P\left(\bigcup_{i=1}^{\infty} \beta_i \right) = \sum_{i=1}^{\infty} P(\beta_i)$$
 
-Similarly, we may also construct
+Similarly, we may also construct $\bigcup\nolimits_{i=1}^{\infty} C_i$ where $C_1 = A$, $C_2 = B$, and $C_i = \emptyset$ for $i > 2$. We then have
 
-$$\bigcup_{i=1}^{\infty} \beta_i \textrm{ where } \beta_1 = B \textrm{ and } \beta_i = \emptyset \textrm{ for } i \ge 2.$$
-
-With disjoint $C_1, C_2, ...$, we see that
-
-$$P(A \cup B) = P(A \cup B \cup \emptyset \cup \emptyset \cup ...) = P\left(\bigcup_{i=1}^{\infty} C_i\right)$$
+$$
+\begin{align}
+P(A \cup B) &= P(A \cup B \cup \emptyset \cup \emptyset \cup \cdots) \\
+            &= P\left( \bigcup_{i=1}^{\infty} C_i \right) \\
+            &= \sum_{i=1}^{\infty} P(C_i) \\
+            &= P(A) + P(B) + P(\emptyset) + P(\emptyset) + \cdots \\
+            &= P(A) + \sum_{i=1}^{\infty} P(\beta_i) \\
+            &= P(A) + P(B). \\
+\end{align}
+$$
