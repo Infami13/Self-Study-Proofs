@@ -1,6 +1,6 @@
 ## Exercise 1
 Fill in the details of the proof of Theorem 1.8. Also, prove the monotone decreasing case.
-
+ 
 **Theorem 1.8.** If $A_n \rightarrow A$ then
 $$P(A_n) \rightarrow P(A)$$
 as $n \rightarrow \infty$.
