@@ -6,4 +6,4 @@ Suppose to the contrary we may form group $G$ with the union of two proper subgr
 
 Given $k \in K$ and $h \in H$, we have $k^{-1} \in K$ and $h^{-1} \in H$. Furthermore, we also see that $hk \in G = H \cup K$. That is $hk \in H$ or $hk \in K$. However, if $hk \in H$ and $h^{-1} \in H$ then $h^{-1}hk = k \in H$. If $hk \in K$ and $k^{-1} \in K$ then $hkk^{-1} = h \in K$. In either case, we arrive at a contradiction and cannot form a group as the union of two proper subgroups.
 
-To show a group may form from the union of three proper, take $U(8) = \set{ 1, 3, 5, 7 }$
+To show a group may form from the union of three proper, take $U(8) = \set{ 1, 3, 5, 7 } with subgroups \set{1, 3}, \set{1, 5}, and \set{1, 7}.$
