@@ -12,4 +12,4 @@ Suppose $c \in C(a^3)$, meaning $a^3c = ca^3$. Multiplying on the left by $a^{-2
   $$ac = a^{-2}ca^3 = a^3ca^3 = ca^3a^3 = ca^6 = ca.$$
 Specifically, $c$ commutes with $a$ which implies $C(a^3) \subseteq C(a)$. By double inclusion, $C(a) = C(a^3)$.
 
-For the second part, we examine the dihedral group $D_6$. In particular, take the elements $R_60$, $R_180$, and $H$ (60-degree rotation, 180-degree rotation, and horizontal flip respectively). Notice that $|R_60| = 6$. Further, $R_60^3 = R_180$ commutes with $H$ but $R_60$ does not. Symbolically, $H \in C(R_60^3)$ and $H \notin C(R_60)$, which then implies $C(R_60) \ne C(R_60^3)$.
+For the second part, we examine the dihedral group $D_6$. In particular, take the elements $R_{60}$, $R_{180}$, and $H$ (60-degree rotation, 180-degree rotation, and horizontal flip respectively). Notice that $|R_{60}| = 6$. Further, $R_{60}^3 = R_{180}$ commutes with $H$ but $R_{60}$ does not. Symbolically, $H \in C(R_{60}^3)$ and $H \notin C(R_{6}0)$, which is sufficient to show $C(R_{60}) \ne C(R_{60}^3)$.
