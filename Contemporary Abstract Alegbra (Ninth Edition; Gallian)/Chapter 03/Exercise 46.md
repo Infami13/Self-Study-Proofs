@@ -8,7 +8,7 @@ Suppose $c \in C(a)$, which means $ac = ca$. It immediately follows
   $$a^3c = aa(ac) = aa(ca) = a(ac)a = a(ca)a = (ac)aa = (ca)aa = ca^3$$.
 That is, $c$ commutes with $a^3$ and $C(a) \subseteq C(a^3)$.
 
-Suppose $c \in C(a^3)$, meaning $a^3c = ca^3$. Multiplying on the left by $a^[-2}$, we have $ac = a^{-2}ca^3$. Further, seeing that $a^5 = e$, then $a^3 = a^{-2}$ and $a^6 = a$. We then observe
+Suppose $c \in C(a^3)$, meaning $a^3c = ca^3$. Multiplying on the left by $a^{-2}$, we have $ac = a^{-2}ca^3$. Further, seeing that $a^5 = e$, then $a^3 = a^{-2}$ and $a^6 = a$. We then observe
   $$ac = a^{-2}ca^3 = a^3ca^3 = ca^3a^3 = ca^6 = ca$.
 Specifically, $c$ commutes with $a$ which implies $C(a^3) \subseteq C(a)$. By double inclusion, $C(a) = C(a^3)$.
 
