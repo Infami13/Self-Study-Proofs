@@ -56,3 +56,7 @@ Prove by induction that $n < 2^n$ for all $n \in \mathbb{N}$.
 ### Problem
 
 Show that for a finite set $A$ of cardinality $n$, the cardinality of $\mathcal{P} (A)$ is $2^n$.
+
+### Solution
+
+Given $A$ is finite and has cardinality $n$, there exists a bijective function from $A$ to $\{1, 2, ..., n}$.
