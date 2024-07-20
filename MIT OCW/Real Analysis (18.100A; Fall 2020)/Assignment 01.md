@@ -1,3 +1,5 @@
+## Exercise 1
+
 Before approaching the first problem, it helps to establish a couple of trivial lemmas:
 
 **Lemma 1.1** $A \cap A = A$.
