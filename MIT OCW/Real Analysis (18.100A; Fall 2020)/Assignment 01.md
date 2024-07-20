@@ -45,5 +45,9 @@ $$
 
 ### Problem
 
-Prove by induction that $n < 2^n$ for all $n \in \mathbb{N}$
+Prove by induction that $n < 2^n$ for all $n \in \mathbb{N}$.
+
+### Solution
+
+*Proof*. Let $P(n)$ describe the statement $n < 2^n$; we will use induction to show $P(n)$ is true for each natural number $n$. In the base case $n = 1$, we have $n = 1 < 2 = 2^1 = 2^n$ and the base case holds. That is, $P(1)$ is true. Next, for the hypothesis step, assume $P(n)$ is true; i.e., $n < 2^n$. It then follows $n + 1 < 2^n + 1 < 2^n + 2^n = 2\cdot 2^n = 2^{n+1}$. In summary, $P(n+1)$ is true whenever $P(n)$ is true. By induction, $n < 2^n$ for all $n \in \mathbb{N}$.
 
