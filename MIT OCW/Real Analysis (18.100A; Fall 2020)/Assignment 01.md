@@ -8,7 +8,7 @@ Before approaching the first problem, it helps to establish a couple of trivial 
 
 *Proof* Suppose $x \in A \cup (A \cap B)$, then $x$ is in $A$ or $x$ is in $A$ and $B$. Either case, $x$ is in $A$ so $A \cup (A \cap B) \subset A$. Similarly, if $x$ is in $A$, then clearly $x$ is in $A \cup (A \cap B)$ so $A \cup (A \cap B) = A$.
 
-1. Prove:
+1: Prove:
 
   - $A \cap (B \cup C) = (A \cap B) \cup (A \cap C)$.
   - $A \cup (B \cap C) = (A \cup B) \cap (A \cup C)$.
