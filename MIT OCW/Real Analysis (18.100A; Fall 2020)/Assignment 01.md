@@ -55,4 +55,4 @@ Prove by induction that $n < 2^n$ for all $n \in \mathbb{N}$.
 
 ### Problem
 
-Show that for a finite set $A$ of cardinality $n$, the cardinality of $\frak{P} (A)$ is $2^n$.
+Show that for a finite set $A$ of cardinality $n$, the cardinality of $\mathcal{P} (A)$ is $2^n$.
