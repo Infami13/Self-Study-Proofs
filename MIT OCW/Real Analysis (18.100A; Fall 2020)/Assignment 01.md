@@ -40,3 +40,10 @@ $$
                            &= A \cup (B \cap C). \\
 \end{align}
 $$
+
+## Exercise 2
+
+### Problem
+
+Prove by induction that $n < 2^n$ for all $n \in \doubleN$
+
