@@ -59,4 +59,4 @@ Show that for a finite set $A$ of cardinality $n$, the cardinality of $\mathcal{
 
 ### Solution
 
-Given $A$ is finite and has cardinality $n$, there exists a bijective function from $A$ to $\{1, 2, ..., n}$.
+Given $A$ is finite and has cardinality $n$, there exists a bijective function from $A$ to $\set{1, 2, ..., n}$.
