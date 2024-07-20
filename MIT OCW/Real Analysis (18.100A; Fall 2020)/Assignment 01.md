@@ -64,10 +64,9 @@ Show that for a finite set $A$ of cardinality $n$, the cardinality of $\mathcal{
 For the hypothesis step, assume $|A| = n$ implies that $\mathcal{P} (A)$ is $2^n$. Now assume that $A$ has cardinality $n + 1$. That is, there is a bijection $f$ from $A$ to ${1, 2, ..., n + 1}$. Given $f$ is bijective, then $f^{-1}(n + 1)$ maps to a unique element in $A$, say $a_{n+1}$. Consider the set $B = A \setminus {a_{n+1}}$, a set that has a bijection with ${1, 2, ..., n}$ (namely $f \setminus (a_{n + 1}, n + 1)$). Seeing that $|B| = n$, then $|\mathcal{P} (B)| = 2^n$ by our hypothesis. That is, there is a bijection $g$ that maps all the subsets of $B$ to the set ${1, 2, ..., 2^n}$. Let us define the function $h$ that maps $A$ to $\mathcal{P} (A)$ as follows
 
 $$
-f(x) = \begin{cases}
--1 & \text{if } x \leq -1,\\
-x  & \text{if } x \in [-1, 1],\\
-1  & \text{if } x \geq 1.
+h(x) = \begin{cases}
+g(x) & \text{if } a_{n + 1} \notin x,\\
+g(x \setminus a_{n + 1}) + 2^n  & \text{otherwise}.
 \end{cases}
 $$
 
