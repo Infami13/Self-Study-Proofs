@@ -7,8 +7,10 @@ We will prove both statements through double inclusion. Starting with the first,
 
 For the second statement, suppose $x \in A \cup (B \cap C)$. Then $x \in A$ or $x \in B \cap C$. If $x \in A$, then $x$ is in both $A\cup B$ and $A\cup C$. If $x \in B \cap C$, then $x$ is in both $B$ and $C$, which again implies $x$ is in both $A\cup B$ and $A\cup C$. Ultimately, $x \in (A \cup B) \cap (A \cup C)$ and $A \cup (B \cap C) \subset (A \cup B) \cap (A \cup C)$. For the other direction, suppose $x \in (A \cup B) \cap (A \cup C)$. By our previous work (in the first statement), we have 
 
-$\begin{align}
+$$
+\begin{align}
 (A \cup B) \cap (A \cup C) &= ((A \cup B) \cap A) \cup ((A \cup B) \cap C) \\
                            &= (A \cap A) \cup (A \cap B) \cup (A \cap C) \cup (B \cap C) \\
                            &= A \cup (A \cap B) \cup (A \cap C) \cup (B \cap C). \\
-\end{align}$
+\end{align}
+$$
