@@ -59,4 +59,8 @@ Show that for a finite set $A$ of cardinality $n$, the cardinality of $\mathcal{
 
 ### Solution
 
-Given $A$ is finite and has cardinality $n$, there exists a bijective function from $A$ to $\set{1, 2, ..., n}$.
+*Proof*. We proceed with induction. Suppose for the base case that $|A| = 1$. Then there exists a bijective function $f$ that maps $A$ to ${1}$. That is, $A$ has a single element, say $a_1$. Thus, only $\emptyset$ and ${a_1}$ are subsets of $A$ and $\mathcal{P} (A) = \set{\emptyset , {a_1}}$. We may then furnish a trivial bijection $g$ from $\mathcal{P} (A)$ to $\set{1, 2}$ by setting $g(\emptyset) = 1$ and $g({a_1}) = 2$. Thus, $|\mathcal{P} (A)| = 2^1 = 2^n$.
+
+For the hypothesis step, assume $|A| = n$ implies that $\mathcal{P} (A)$ is $2^n$. Now assume that $A$ has cardinality $n + 1$. That is, there is a bijection $f$ from $A$ to ${1, 2, ..., n + 1}$. Given $f$ is bijective, then $f^{-1}(n + 1)$ maps to a unique element in $A$, say $a_{n+1}$. Consider the set $B = A \setminus {a_{n+1}}$, a set that has a bijection with ${1, 2, ..., n}$ (namely $f \setminus (a_{n + 1}, n + 1)$). Seeing that $|B| = n$, then $|\mathcal{P} (B)| = 2^n$ by our hypothesis. That is, there is a bijection $g$ that maps all the subsets of $B$ to the set ${1, 2, ..., 2^n}$. Let us define the function $h$ that maps $A$ to $\mathcal{P} (A)$ as follows
+
+Given $A$ is finite and has cardinality $n$, there exists a bijective function $f$ that maps $A$ to $N = \set{1, 2, ..., n}$.
