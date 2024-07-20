@@ -1,3 +1,6 @@
-_1. *Prove*:
-__a. $A \cap (B \cup C) = (A \cap B) \cup (A \cap C)$.
-__b. $A \cup (B \cap C) = (A \cup B) \cap (A \cup C)$.
+1. *Prove*:
+
+  - $A \cap (B \cup C) = (A \cap B) \cup (A \cap C)$.
+    fda
+  - $A \cup (B \cap C) = (A \cup B) \cap (A \cup C)$.
+    stuff
