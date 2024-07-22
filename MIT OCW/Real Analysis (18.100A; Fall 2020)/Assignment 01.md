@@ -59,7 +59,7 @@ Show that for a finite set $A$ of cardinality $n$, the cardinality of $\mathcal{
 
 ### Solution
 
-*Proof*. Suppose for the base case $n = 1$ that $|A| = n = 1$. Then, we know from Exercise 0.3.5 that $A$ has exactly $1$ member, say $a_1$. That is $A = \set{a_1}$ and has exactly two subsets $\emptyset$ and $\set{a_1}$. That is, $\mathcal{P} (a) = {\emptyset, \set{a_1}}$ and $\mathcal{P} (A)$ has $2$ members. Again, by Exercise 0.3.5, we then know that $|\mathcal{P} (A)| = 2 = 2^1 = 2^n$.
+*Proof*. Suppose for the base case $n = 1$ that $|A| = n = 1$. Then, we know from Exercise 0.3.5 that $A$ has exactly $1$ member, say $a_1$. That is $A = \set{a_1}$ and has exactly two subsets $\emptyset$ and $\set{a_1}$. That is, $\mathcal{P} (a) = \set{\emptyset, \set{a_1}}$ and $\mathcal{P} (A)$ has $2$ members. Again, by Exercise 0.3.5, we then know that $|\mathcal{P} (A)| = 2 = 2^1 = 2^n$.
 
 Now we assume $|A| = n$ implies the cardinality of $|\mathcal{P} (A)|$ is $2^n$. Now suppose $|A| = n + 1$. Consider the set $B$ that has all but one member of $A$, say $a_{n+1}$. That is, $B = A \setminus \set{a_{n+1}}$ and $B$ has $n$ members. Given $|B| = n$, then $|\mathcal{P} (B)| = 2^n$ by our hypothesis. For each subset $\beta$ of $B$, we may furnish two distinct subsets of $A$, which are $\beta$ and $\beta \cup \set{a_{n + 1}}$. Again, $B$ has $2^n$ subsets, so $A$ has $2 \cdot 2^n = 2^{n + 1}$ subsets. Ultimately, $\mathcal{P} (A) = 2^{n + 1}$ as desired.
 
