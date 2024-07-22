@@ -72,6 +72,16 @@ $$
 
 Note that $A$ and $B$ differ by one member $a_{n + 1}$, so subsets of $A$ either take the form $\beta$ or $\beta \cup \set{a_{n + 1}}$, where $\beta$ is a subset of $B$. All that remains is to show $h$ is bijective.
 
-Suppose $h(x_1) = h(x_2)$. If $h(x_1) = h(x_2) > 2^n$, then $2^n + g(x_1 \setminus a_{n + 1}) = 2^n + g(x_2 \setminus a_{n + 1})$ and $g(x_1 \setminus a_{n + 1}) = g(x_2 \setminus a_{n + 1})$. If
+Suppose $h(x_1) = h(x_2)$. If $h(x_1) = h(x_2) > 2^n$, then $2^n + g(x_1 \setminus a_{n + 1}) = 2^n + g(x_2 \setminus a_{n + 1})$ and $g(x_1 \setminus a_{n + 1}) = g(x_2 \setminus a_{n + 1})$. Given that $g$ is bijective, we know that $x_1 \setminus a_{n + 1} = x_2 \setminus a_{n+1}$. Further, $x_1 = x_2$ seeing that $a_{n+1}$ is in both $x_1$ and $x_2$. If $h(x_1) = h(x_2) <= 2^n
 
 Given $A$ is finite and has cardinality $n$, there exists a bijective function $f$ that maps $A$ to $N = \set{1, 2, ..., n}$.
+
+## Exercise 4
+
+### Problem
+
+Prove that $n^3 + 5n$ is divisible by 6 for all $n \in \mathbb{N}$.
+
+### Solution
+
+*Proof*. We will prove this statement throught induction. For the base case $n = 1$, we have $n^3 + 5n = 1^3 + 5 \cdot 1 = 1 + 5 = 6 = 6 \cdot 1$, which is clearly divisible by $6$. Now assume that $n^3 + 5n$ is divisible by $6$. We then have $(n+1)^3 +5(n + 1) = n^3 + 3n^2 + 3n + 1 + 5n + 5 = n^3 + 5n + 3n^2 + 3n + 6 = n^3 + 5n + 3(n^2 + n + 2)$. By our hypothesis, we know $n^3 + 5n = 6m$ for some integer $m$. 
