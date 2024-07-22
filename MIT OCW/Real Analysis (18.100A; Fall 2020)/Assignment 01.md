@@ -53,12 +53,6 @@ Prove by induction that $n < 2^n$ for all $n \in \mathbb{N}$.
 
 ## Exercise 3
 
-### Supporting Lemma
-
-**Lemma 3.1**. If $|A| = n$, then $A$ has $n$ members.
-
-*Proof*. Suppose $|A| = n$, then there exists a bijection $f$ from $A$ to ${1, 2, ..., n}$ such ta
-
 ### Problem
 
 Show that for a finite set $A$ of cardinality $n$, the cardinality of $\mathcal{P} (A)$ is $2^n$.
