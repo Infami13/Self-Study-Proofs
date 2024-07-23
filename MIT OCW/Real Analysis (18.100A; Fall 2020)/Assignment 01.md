@@ -107,12 +107,18 @@ In what follows, we will use the following theorem without proof:
 
 if $q\in \mathbb{N}$ and $q \ne 1$, then there exists unique prime numbers $p_1 < p_2 < \cdots < p_N$ and unique exponents $r_1, ...., r_N \in \mathbb{N}$ such that
 
-$$q = p_1^{r_1}p_2^{r_2}\cdots p_N^{r_N},\tag*{(1)}$$
+$$q = p_1^{r_1}p_2^{r_2}\cdots p_N^{r_N},\tag*{(†)}$$
 
 if $q \notin \mathbb{N}$, then there exist unique prime numbers $p_1 < p_2 < \cdots < p_N$, $q_1 < q_2 < \cdots < q_M$ with $p_i \ne q_j$ for all $i \in \set{1, ..., N}, j \in \set{1, ..., M}$, and unique exponents $r_1, ..., r_N, s_1, ..., s_M \in \mathbb{N}$ such that
 
-$$q = \frac{p_1^{r_1}p_2^{r_2}\cdots p_N^{r_N}}{q_1^{s_1}q_2^{s_2}\cdots q_M^{s_M}}.$$
+$$q = \frac{p_1^{r_1}p_2^{r_2}\cdots p_N^{r_N}}{q_1^{s_1}q_2^{s_2}\cdots q_M^{s_M}}.\tag*{(‡)}$$
 
-Define $f: \set{q \in \mathbb{Q} : q > 0} \rightarrow \mathbb{N}$ as follows: $f(1) = 1$, if $q \in \mathbb{N} \setminus \set{1}$ is given by 
+Define $f: \set{q \in \mathbb{Q} : q > 0} \rightarrow \mathbb{N}$ as follows: $f(1) = 1$, if $q \in \mathbb{N} \setminus \set{1}$ is given by $(†)$, then
+
+$$f(q) = p^{2r_1}\cdotsp_N^{2r_N},$$
+
+and if $q \in \mathbb{Q} \setminus \mathbb{N}$ is given by $(‡)$, then
+
+$$f(q) = p_1^{2r_1}\cdots p_N^{2r_N}q_1^{2s_1-1}\cdots q_M^{2s_M - 1}.$$
 
 
