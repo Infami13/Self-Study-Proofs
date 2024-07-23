@@ -80,3 +80,15 @@ Prove that $n^3 + 5n$ is divisible by 6 for all $n \in \mathbb{N}$.
 $$(n+1)^3 +5(n + 1) = n^3 + 3n^2 + 3n + 1 + 5n + 5 = n^3 + 5n + 3n^2 + 3n + 6 = n^3 + 5n + 3(n^2 + n + 2).$$
 
 By our hypothesis, we know $n^3 + 5n = 6m$ for some integer $m$. By our lemma, we know $n^2 + n + 2 = 2k$ for some integer $k$. We then have $(n+1)^3 +5(n + 1) = 6m + 3(2k) = 6m + 6k = 6(m + k)$ and $6$ divides $(n+1)^3 +5(n + 1)$.
+
+## Exercise 5
+
+### Problem
+
+Give an exampple of a countably infinite collection of finite set $A_1, A_2, ...$, whose union is not a finite set.
+
+### Solution
+
+Let $S$ be a collection of sets $A_1, A_2, ...$ such that $A_k = {k}$ for natural number $k$. More explicitly, $S = \set{\set{1}. \set{2], ...}$. Of couse, each set in $S$ is finite with a cardinality of $1$. To show that $S$ is countably infinte, take the function $f: \mathbb{N} \rightarrow S$ defined by $f(x) = \set{x}$. We know $f$ is injective because if $f(x_1) = f(x_2)$, then $\set{x_1} = \set{x_2}$ and $x_1 \in \set{x_2}$. Seeing that $\set{x_2}$ is singleton, we have $x_1 = x_2$. We also know $f$ is surjective because for any $\set{x} \in S$, we have $x$ as a natural number (by the way $S$ is constructed) in which $f(x)= \set{x}$. Ultimately, $S$ has the same cardinality as $\mathbb{N}$ and is consequently countably infinite.
+
+To then show $\bigcup S$
