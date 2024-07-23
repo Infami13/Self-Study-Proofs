@@ -92,3 +92,27 @@ Give an example of a countably infinite collection of finite set $A_1, A_2, ...$
 Let $S$ be a collection of sets $A_1, A_2, ...$ such that $A_k = \set{k}$ for each natural number $k$. More explicitly, $S = \set{\set{1}, \set{2}, ...}$. Of couse, each set in $S$ is finite with a cardinality of $1$. To show that $S$ is countably infinte, take the function $f: \mathbb{N} \rightarrow S$ defined by $f(x) = \set{x}$. We know $f$ is injective because if $f(x_1) = f(x_2)$, then $\set{x_1} = \set{x_2}$ and $x_1 \in \set{x_2}$. Seeing that $\set{x_2}$ is singleton, we have $x_1 = x_2$. We also know $f$ is surjective because for any $\set{x} \in S$, we have $x$ as a natural number (by the way $S$ is constructed) in which $f(x)= \set{x}$. Ultimately, $S$ has the same cardinality as $\mathbb{N}$ and is consequently countably infinite.
 
 To then show $U = \bigcup S$ is not finite, it suffices to show that $U = \mathbb{N}$. Suppose $x \in U$, then $x$ is in some member of $S$. Particularly $x \in \set{n}$, where $n$ is a natural number; in which case, $x = n$ and $x \in \mathbb{N}$. Now suppose $x \in \mathbb{N}$. Then $\set{x}$ appears in $S$. Given $\set{x} \in S$, then $x \in U = \bigcup S$. By double inclusion, $U = \mathbb{N}$.
+
+## Exercise 6
+
+### Problem
+
+In this exercise, you will prove that
+
+$$|{q ∈ \mathbb{Q} : q > 0}| = |\mathbb{N}|$$
+
+In what follows, we will use the following theorem without proof:
+
+**Theorem.** Let $q \in \mathbb{Q}$ with $q > 0$. Then
+
+if $q\in \mathbb{N}$ and $q \ne 1$, then there exists unique prime numbers $p_1 < p_2 < \cdots < p_N$ and unique exponents $r_1, ...., r_N \in \mathbb{N}$ such that
+
+$$q = p_1^{r_1}p_2^{r_2}\cdots p_N^{r_N},$$
+
+if $q \notin \mathbb{N}$, then there exist unique prime numbers $p_1 < p_2 < \cdots < p_N$, $q_1 < q_2 < \codts < q_M$ with $p_i \ne q_j$ for all $i \in \set{1, ..., N}, j \in \set{1, ..., M}$, and unique exponents $r_1, ..., r_N, s_1, ..., s_M \in \mathbb{N}$ such that
+
+$$q = \frac{p_1^{r_1}p_2^{r_2}\cdots p_N^{r_N}}{q_1^{s_1}q_2^{s_2}\cdots q_M^{s_M}}.$$
+
+Define $f: \set{q \in \mathbb{Q} : q > 0} \rightarrow \mathbb{N}}$ as follows: $f(1) = 1$, if $q \in \mathbb{N} \setminus \set{1}$ is given by 
+
+
