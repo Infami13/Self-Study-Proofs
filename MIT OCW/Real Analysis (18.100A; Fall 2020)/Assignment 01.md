@@ -113,6 +113,6 @@ if $q \notin \mathbb{N}$, then there exist unique prime numbers $p_1 < p_2 < \cd
 
 $$q = \frac{p_1^{r_1}p_2^{r_2}\cdots p_N^{r_N}}{q_1^{s_1}q_2^{s_2}\cdots q_M^{s_M}}.$$
 
-Define $f: \set{q \in \mathbb{Q} : q > 0} \rightarrow \mathbb{N}}$ as follows: $f(1) = 1$, if $q \in \mathbb{N} \setminus \set{1}$ is given by 
+Define $f: \set{q \in \mathbb{Q} : q > 0} \rightarrow \mathbb{N}$ as follows: $f(1) = 1$, if $q \in \mathbb{N} \setminus \set{1}$ is given by 
 
 
