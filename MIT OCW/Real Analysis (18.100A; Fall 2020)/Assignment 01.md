@@ -107,7 +107,7 @@ In what follows, we will use the following theorem without proof:
 
 if $q\in \mathbb{N}$ and $q \ne 1$, then there exists unique prime numbers $p_1 < p_2 < \cdots < p_N$ and unique exponents $r_1, ...., r_N \in \mathbb{N}$ such that
 
-$$q = p_1^{r_1}p_2^{r_2}\cdots p_N^{r_N},$$
+$$q = p_1^{r_1}p_2^{r_2}\cdots p_N^{r_N},\tag*{(1)}$$
 
 if $q \notin \mathbb{N}$, then there exist unique prime numbers $p_1 < p_2 < \cdots < p_N$, $q_1 < q_2 < \cdots < q_M$ with $p_i \ne q_j$ for all $i \in \set{1, ..., N}, j \in \set{1, ..., M}$, and unique exponents $r_1, ..., r_N, s_1, ..., s_M \in \mathbb{N}$ such that
 
