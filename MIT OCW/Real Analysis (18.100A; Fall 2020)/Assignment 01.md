@@ -130,4 +130,4 @@ We start by computing $f(4/15)$. Given
 
 $$\frac{4}{15} = \frac{2^2}{3^15^1}$$
 
-and $4/15 \notin \mathbb{N}$$, we have $f(4/15) = 2^{2 \cdot 2}3^{2\cdot 1 - 1}5^{2\cdot 1 - 1} = 2^43^15^1 = 240.$
+and $4/15 \notin \mathbb{N}$, we have $f(4/15) = 2^{2 \cdot 2}3^{2\cdot 1 - 1}5^{2\cdot 1 - 1} = 2^43^15^1 = 240.$
