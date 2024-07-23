@@ -121,4 +121,13 @@ and if $q \in \mathbb{Q} \setminus \mathbb{N}$ is given by $(‡)$, then
 
 $$f(q) = p_1^{2r_1}\cdots p_N^{2r_N}q_1^{2s_1-1}\cdots q_M^{2s_M - 1}.$$
 
+- Compute $f(4/15)$. Find $q$ such that $f(q) = 108$.
+- Use the **Theorem** to prove that $f$ is a bijection.
 
+### Solution
+
+We start by computing $f(4/15)$. Given 
+
+$$\frac{4}{15} = \frac{2^2}{3^15^1}$$
+
+and $4/15 \notin \mathbb{N}$$, we have $f(4/15) = 2^{2 \cdot 2}3^{2\cdot 1 - 1}5^{2\cdot 1 - 1} = 2^43^15^1 = 240.$
