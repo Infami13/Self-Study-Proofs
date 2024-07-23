@@ -77,5 +77,8 @@ Prove that $n^3 + 5n$ is divisible by 6 for all $n \in \mathbb{N}$.
 
 ### Solution
 
-*Proof*. We will prove this statement throught induction. For the base case $n = 1$, we have $n^3 + 5n = 1^3 + 5 \cdot 1 = 1 + 5 = 6 = 6 \cdot 1$, which is clearly divisible by $6$. Now assume that $n^3 + 5n$ is divisible by $6$. We then have $$(n+1)^3 +5(n + 1) = n^3 + 3n^2 + 3n + 1 + 5n + 5 = n^3 + 5n + 3n^2 + 3n + 6 = n^3 + 5n + 3(n^2 + n + 2).$$
+*Proof*. We will prove this statement throught induction. For the base case $n = 1$, we have $n^3 + 5n = 1^3 + 5 \cdot 1 = 1 + 5 = 6 = 6 \cdot 1$, which is clearly divisible by $6$. Now assume that $n^3 + 5n$ is divisible by $6$. We then have
+
+$$(n+1)^3 +5(n + 1) = n^3 + 3n^2 + 3n + 1 + 5n + 5 = n^3 + 5n + 3n^2 + 3n + 6 = n^3 + 5n + 3(n^2 + n + 2).$$
+
 By our hypothesis, we know $n^3 + 5n = 6m$ for some integer $m$. By our lemma, we know $n^2 + n + 2 = 2k$ for some integer $k$. We then have $(n+1)^3 +5(n + 1) = 6m + 3(2k) = 6m + 6k = 6(m + k)$ and $6$ divides $(n+1)^3 +5(n + 1)$.
