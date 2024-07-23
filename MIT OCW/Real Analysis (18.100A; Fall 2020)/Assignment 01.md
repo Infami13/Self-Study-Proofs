@@ -132,6 +132,6 @@ $$\frac{4}{15} = \frac{2^2}{3^15^1}$$
 
 and $4/15 \notin \mathbb{N}$, we have $f(4/15) = 2^{2 \cdot 2}3^{2\cdot 1 - 1}5^{2\cdot 1 - 1} = 2^43^15^1 = 240.$
 
-On the other hand, we have $108 = 2^23^3 = 2^{2\cdot 1}3^{2 \cdot 2 -1}$. By the way we define $f$, we have $2/9 = 2^1/3^2$ map to $2^{2\cdot 1}{2 \cdot 2 -1}$. That is, $f(2/9) = 108$.
+On the other hand, we have $108 = 2^23^3 = 2^{2\cdot 1}3^{2 \cdot 2 -1}$. By the way we define $f$, we have $2/9 = 2^1/3^2$ map to $2^{2\cdot 1}3^{2 \cdot 2 -1}$. That is, $f(2/9) = 108$.
 
 
