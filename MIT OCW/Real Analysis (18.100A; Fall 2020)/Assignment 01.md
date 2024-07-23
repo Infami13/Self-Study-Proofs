@@ -61,9 +61,15 @@ Show that for a finite set $A$ of cardinality $n$, the cardinality of $\mathcal{
 
 *Proof*. Suppose for the base case $n = 1$ that $|A| = n = 1$. Then, we know from Exercise 0.3.5 that $A$ has exactly $1$ member, say $a_1$. That is $A = \set{a_1}$ and has exactly two subsets $\emptyset$ and $\set{a_1}$. That is, $\mathcal{P} (a) = \set{\emptyset, \set{a_1}}$ and $\mathcal{P} (A)$ has $2$ members. Again, by Exercise 0.3.5, we then know that $|\mathcal{P} (A)| = 2 = 2^1 = 2^n$.
 
-Assume $|A| = n$ implies  $|\mathcal{P} (A)| = 2^n$. Now suppose $|A| = n + 1$. Consider the set $B$ that has all but one member of $A$, say $a_{n+1}$. That is, $B = A \setminus \set{a_{n+1}}$ and $B$ has $n$ members. Given $|B| = n$, then $|\mathcal{P} (B)| = 2^n$ by our hypothesis. For each subset $\beta$ of $B$, we may furnish two distinct subsets of $A$, which are $\beta$ and $\beta \cup \set{a_{n + 1}}$. Again, $B$ has $2^n$ subsets, so $A$ has $2 \cdot 2^n = 2^{n + 1}$ subsets. Ultimately, $|\mathcal{P} (A)| = 2^{n + 1}$ as desired.
+Assume $|A| = n$ implies  $|\mathcal{P} (A)| = 2^n$. Now suppose $|A| = n + 1$. Consider the set $B$ that has all but one member of $A$, say $a_{n+1}$. That is, $B = A \setminus \set{a_{n+1}}$ and $B$ has $n$ members. Given $|B| = n$, then $|\mathcal{P} (B)| = 2^n$ by our hypothesis. For each subset $\beta$ of $B$, we may furnish two distinct subsets of $A$, which are $\beta$ and $\beta \cup \set{a_{n + 1}}$ (which are also distinct from every other subset of $A$). Again, $B$ has $2^n$ subsets, so $A$ has $2 \cdot 2^n = 2^{n + 1}$ subsets. Ultimately, $|\mathcal{P} (A)| = 2^{n + 1}$ as desired.
 
 ## Exercise 4
+
+### Supporting Lemma
+
+**Lemma 4.1**. $n^2 + n + 2$ is even for every $n \in \mathbb{N}$.
+
+*Proof*. If $n$ is even, then $n = 2m$ for some integer $m$. It follows $n^2 + n + 2 = (2m)^2 + 2m + 2 = 4m^2 + 2m + 2 = 2(2m^2 + 2m + 2)$; hence, $n^2 + n + 2$ is even. If $n$ is odd, then $n = 2m + 1$ for some integer $m$ and $n^2 + n + 2 = (2m + 1)^2 + 2m + 1 + 2 = 4m^2 + 4m + 1 + 2m + 3 = 4m^2 + 6m + 4 = 2(2m^2 + 3m +2)$ and $n^2 + n + 2$ is even.
 
 ### Problem
 
@@ -71,4 +77,4 @@ Prove that $n^3 + 5n$ is divisible by 6 for all $n \in \mathbb{N}$.
 
 ### Solution
 
-*Proof*. We will prove this statement throught induction. For the base case $n = 1$, we have $n^3 + 5n = 1^3 + 5 \cdot 1 = 1 + 5 = 6 = 6 \cdot 1$, which is clearly divisible by $6$. Now assume that $n^3 + 5n$ is divisible by $6$. We then have $(n+1)^3 +5(n + 1) = n^3 + 3n^2 + 3n + 1 + 5n + 5 = n^3 + 5n + 3n^2 + 3n + 6 = n^3 + 5n + 3(n^2 + n + 2)$. By our hypothesis, we know $n^3 + 5n = 6m$ for some integer $m$. 
+*Proof*. We will prove this statement throught induction. For the base case $n = 1$, we have $n^3 + 5n = 1^3 + 5 \cdot 1 = 1 + 5 = 6 = 6 \cdot 1$, which is clearly divisible by $6$. Now assume that $n^3 + 5n$ is divisible by $6$. We then have $(n+1)^3 +5(n + 1) = n^3 + 3n^2 + 3n + 1 + 5n + 5 = n^3 + 5n + 3n^2 + 3n + 6 = n^3 + 5n + 3(n^2 + n + 2)$. By our hypothesis, we know $n^3 + 5n = 6m$ for some integer $m$. By our lemma, we know $n^2 + n + 2 = 2k$ for some integer $k$. We then have $(n+1)^3 +5(n + 1) = 6m + 3(2k) = 6m + 6k = 6(m + k)$ and $6$ divides $(n+1)^3 +5(n + 1)$.
