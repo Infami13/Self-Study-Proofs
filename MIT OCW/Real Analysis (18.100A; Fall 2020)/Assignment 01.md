@@ -109,7 +109,7 @@ if $q\in \mathbb{N}$ and $q \ne 1$, then there exists unique prime numbers $p_1 
 
 $$q = p_1^{r_1}p_2^{r_2}\cdots p_N^{r_N},$$
 
-if $q \notin \mathbb{N}$, then there exist unique prime numbers $p_1 < p_2 < \cdots < p_N$, $q_1 < q_2 < \codts < q_M$ with $p_i \ne q_j$ for all $i \in \set{1, ..., N}, j \in \set{1, ..., M}$, and unique exponents $r_1, ..., r_N, s_1, ..., s_M \in \mathbb{N}$ such that
+if $q \notin \mathbb{N}$, then there exist unique prime numbers $p_1 < p_2 < \cdots < p_N$, $q_1 < q_2 < \cdots < q_M$ with $p_i \ne q_j$ for all $i \in \set{1, ..., N}, j \in \set{1, ..., M}$, and unique exponents $r_1, ..., r_N, s_1, ..., s_M \in \mathbb{N}$ such that
 
 $$q = \frac{p_1^{r_1}p_2^{r_2}\cdots p_N^{r_N}}{q_1^{s_1}q_2^{s_2}\cdots q_M^{s_M}}.$$
 
