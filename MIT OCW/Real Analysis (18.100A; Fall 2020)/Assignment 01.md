@@ -115,7 +115,7 @@ $$q = \frac{p_1^{r_1}p_2^{r_2}\cdots p_N^{r_N}}{q_1^{s_1}q_2^{s_2}\cdots q_M^{s_
 
 Define $f: \set{q \in \mathbb{Q} : q > 0} \rightarrow \mathbb{N}$ as follows: $f(1) = 1$, if $q \in \mathbb{N} \setminus \set{1}$ is given by $(†)$, then
 
-$$f(q) = p^{2r_1}\cdotsp_N^{2r_N},$$
+$$f(q) = p^{2r_1}\cdots p_N^{2r_N},$$
 
 and if $q \in \mathbb{Q} \setminus \mathbb{N}$ is given by $(‡)$, then
 
