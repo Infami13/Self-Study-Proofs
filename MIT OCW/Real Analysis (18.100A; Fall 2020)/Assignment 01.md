@@ -139,3 +139,5 @@ On the other hand, we have $108 = 2^23^3 = 2^{2\cdot 1}3^{2 \cdot 2 -1}$. By the
 $$q = \frac{p_1^{r_1} \cdots p_N^{r_N}}{q_1^{s_1} \cdots q_M^{s_M}}$$
 
 so that $f(q) = p_1^{2r_1} \cdots p_N^{2r_N} q_1^{2s_1 - 1} \cdots q_M^{2s_M - 1} = n$ as desired.
+
+To prove that $f$ is injective, suppose $x \ne y$. Given $x$ and $y$ are rational, we may
