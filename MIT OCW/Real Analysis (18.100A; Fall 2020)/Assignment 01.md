@@ -134,4 +134,4 @@ and $4/15 \notin \mathbb{N}$, we have $f(4/15) = 2^{2 \cdot 2}3^{2\cdot 1 - 1}5^
 
 On the other hand, we have $108 = 2^23^3 = 2^{2\cdot 1}3^{2 \cdot 2 -1}$. By the way we define $f$, we have $2/9 = 2^1/3^2$ map to $2^{2\cdot 1}3^{2 \cdot 2 -1}$. That is, $f(2/9) = 108$.
 
-
+*Proof*. To prove $f$ is bijective, we start by showing $f$ is surjective. Suppose $n \in \mathbb{N}$, then $n = 1$ or $n$ is a product of primes by our Theorem. If $n = 1$, then $f(1) = 1$ by our definition of $f$. Otherwise, by our Theorem again, $n$ may be expressed uniquely as a product of primes $\pi_1^{\rho_1} \cdots \pi_N^{\rho_N}$ for $p_1 < p_2 < ... < p_N$. For each power $r_i$, we may assert
