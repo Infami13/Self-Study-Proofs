@@ -142,7 +142,9 @@ so that $f(q) = p_1^{2r_1} \cdots p_N^{2r_N} q_1^{2s_1 - 1} \cdots q_M^{2s_M - 1
 
 For brevity, we assume the empty product is $1$ in the following. To prove that $f$ is injective, suppose $x \ne y$. Given $x$ and $y$ are positive rationals, we may write them as a quotient of natural numbers; explicitly, $x = a/b$ and $y = \alpha / \beta$. By our Theorem, we may also write
 
-$$x = \frac{a}{b} = \frac{p_1^{r_1} \cdots p_N^{r_N}}{q_1^{s_1} \cdots q_M^{s_M}}, \\
-y = \frac{\alpha}{\beta} = \frac{t_1^{v_1} \cdots t_K^{v_K}}{u^{w_1} \cdots u^{w_J}}.$$
+$$\begin{multline}
+x = \frac{a}{b} = \frac{p_1^{r_1} \cdots p_N^{r_N}}{q_1^{s_1} \cdots q_M^{s_M}}, \\
+y = \frac{\alpha}{\beta} = \frac{t_1^{v_1} \cdots t_K^{v_K}}{u^{w_1} \cdots u^{w_J}}.
+end{multline}$$
 
 Again $x \ne y$, so either $a \ne \alpha$ or $b \ne \beta$. We examine the case that $a \ne \alpha$. By our Theorem, we know $a$ and $\alpha$ may be expressed uniquely (and distinctly) as a product of primes. That is, $a = p_1^{r_1} \cdots p
