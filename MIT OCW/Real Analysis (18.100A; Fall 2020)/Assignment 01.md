@@ -140,4 +140,4 @@ $$q = \frac{p_1^{r_1} \cdots p_N^{r_N}}{q_1^{s_1} \cdots q_M^{s_M}}$$
 
 so that $f(q) = p_1^{2r_1} \cdots p_N^{2r_N} q_1^{2s_1 - 1} \cdots q_M^{2s_M - 1} = n$ as desired.
 
-To prove that $f$ is injective, suppose $x \ne y$. By our Theorem, we know $x$ and $y$ may be expressed uniquely (and distinctly) as a product of primes over another product of primes (for brevity, we assume the empty product is $1$). That is to say, if $x = $p_1^{r_1} \cdots p_N^{r_N} / q_1^{s_1} \cdots q_M^{s_M}$ and $y = p_1^{r'_1} \cdots p_K^{r'_K}$
+To prove that $f$ is injective, suppose $x \ne y$. By our Theorem, we know $x$ and $y$ may be expressed uniquely (and distinctly) as a product of primes over another product of primes (for brevity, we assume the empty product is $1$). That is to say, if $x = $p_1^{r_1} \cdots p_N^{r_N} / q_1^{s_1} \cdots q_M^{s_M}$ and $y = {p'}_1^{r'_1} \cdots p_K^{r'_K}$
