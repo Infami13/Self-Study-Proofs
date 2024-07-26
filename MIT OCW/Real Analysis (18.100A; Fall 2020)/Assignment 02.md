@@ -15,4 +15,4 @@ Let $S$ be an ordered set. Let $A \subset S$ be a nonempty finite subset. Then $
 
 ### Solution
 
-Supp
+Suppose, for the base case, that $|A| = 1$. Then $A$ has a single element, say $a$. Clearly, $a >= a$ so $a$ is an upper bound of $A$; similarly, $a <= a$ so $a$ is also a lower bound of $A$. To show $a = \sup A$, we know $\sup A$ is the least upper bound of $A$, so $\sup A$ is an upper bound of $A$ and namely $\sup A >= a$. However, we know $a$ is an upper bound of $A$, so $\sup A <= a$. By trichotomy, we must have $a = \sup A$ and $\sup A \in A$. A similar argument can show $\inf A \in A$.
