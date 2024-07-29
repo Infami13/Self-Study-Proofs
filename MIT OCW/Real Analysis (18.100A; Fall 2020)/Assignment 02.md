@@ -29,5 +29,15 @@ Let $S$ be an ordered set. Let $A \subset S$ and suppose $b$ is an upper bound f
 
 Suppose to the contrary that $b \ne \sup A$, meaning $b$ is not the least upper bound of $A$. Then there exists an upper bound $\beta$ of $A$ such that $\beta < b$. However $b \in A$, which means $\beta$ cannot be an upper bound of $A$ (a contradiction). That is to say $b \le \beta$ for every upper bound $\beta$ of $A$. By definition, $b$ is the least upper bound of $A$, notated as $b = \sup A$.
 
+## Exercise 4
 
+### Problem
+
+Let $S$ be an ordered set. Let $A \subset S$ be nonempty and bounded above. Suppose $\sup A$ exists and $\sup A \notin A$. Show that $A$ contains a countably infinite subset.
+
+### Solution
+
+By Exercise 2 above, we know if $A$ is finite, then $\sup A \in A$. By contrapositive, $\sup A \notin A$ implies $A$ must be non-finite. Now suppose $x_1 \in A$, then $x_1 \le \sup A$. We know $x_1 \ne \sup A$ because $\sup A \notin A$, so $x_1 < \sup A$. We may then find an element $x_2 \in A$ such that $x_1 < x_2 < \sup A$. We may then find another element $x_3$ such that $x_2 < x_3 < \sup A$.¹ We then define $B \subset A$ as $B = \set{x_1, x_2, ...}$ and define $f: B \rightarrow \mathcal{N}$ in the obvious way, $f(x_n) = n$. That is, there is a subset $B$ of $A$ that shares cardinality with the natural numbers, hence $B$ is countably infinite. Thus, $A$ contains a countably infinite subset.
+
+1 - Suppose to the contrary we encounter an element $x_n$ where there exists no other element in $A$ strictly between $x_n$ and $\sup A$. Then $x_n \ge a$ for each $a \in A$, and $x_n$ is an upper bound for $A$. This then implies $x_n \ge \sup A$, an absurdity.
 
