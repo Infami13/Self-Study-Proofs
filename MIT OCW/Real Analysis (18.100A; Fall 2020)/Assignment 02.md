@@ -27,7 +27,7 @@ Let $S$ be an ordered set. Let $A \subset S$ and suppose $b$ is an upper bound f
 
 ### Solution
 
-Suppose to the contrary that $b \ne \sup A$, meaning $b$ is not the least upper bound of $A$. Then there exists an upper bound $\beta$ such that $\beta < b$. However $b \in A$, which means $\beta$ cannot be an upper bound of $A$ (a contradiction). That is to say $b \le \beta$ for every upper bound $\beta$ of $A$. By definition, $b$ is the least upper bound of $A$, notated as $b = \sup A$.
+Suppose to the contrary that $b \ne \sup A$, meaning $b$ is not the least upper bound of $A$. Then there exists an upper bound $\beta$ of $A$ such that $\beta < b$. However $b \in A$, which means $\beta$ cannot be an upper bound of $A$ (a contradiction). That is to say $b \le \beta$ for every upper bound $\beta$ of $A$. By definition, $b$ is the least upper bound of $A$, notated as $b = \sup A$.
 
 
 
