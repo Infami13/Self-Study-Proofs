@@ -41,4 +41,4 @@ By Exercise 2 above, we know if $A$ is finite, then $\sup A \in A$. By contrapos
 
 \* - Suppose to the contrary we encounter an element $x_n$ where there exists no other element in $A$ that is strictly between $x_n$ and $\sup A$. No element of $A$ may be greater than or equal to $\sup A$, so it must be that $x_n \ge a$ for each $a \in A,$ and $x_n$ is an upper bound for $A$. This then implies $x_n \ge \sup A$, an absurdity.
 
-** - $x_i \ne x_j$ implies $x_i < x_j$ or vice versa. Suppose the former without loss of generality, then $i < j$ and $f(x_i) \ne f(x_j)$. Moreover, if $i \in \mathbb{N}$, then $f(x_i) = i$.
+** - For injectivity, $x_i \ne x_j$ implies $x_i < x_j$ or vice versa. Suppose the former without loss of generality, then $i < j$ and $f(x_i) \ne f(x_j)$. For subjectivity, if $k \in \mathbb{N}$, then $f(x_k) = k$.
