@@ -75,4 +75,4 @@ For the later statement, suppose $\sqrt{xy} = (x + y)/2$. Not unlike our work be
 
 Let $A$ and $B$ be two nonempty bounded sets of real numbers. Let $C := \set{a+b : a\in A, b\in B}$. Show that $C$ is a bounded set and that
 
-$$ \sup C = \sup A + \sup B \mathtext{ and } \inf C = inf A + inf B.$$
+$$ \sup C = \sup A + \sup B \rmtext{ and } \inf C = inf A + inf B.$$
