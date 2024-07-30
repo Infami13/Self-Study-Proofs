@@ -55,8 +55,15 @@ Furthermore, equality occurs if and only if $x = y$.
 
 ### Solution
 
-Suppose to the contrary that $\sqrt{xy} > (x+y)/2$. Given $x >0$ and $y > 0$, we know that $(x + y)/2 > 0$. We can then assert that $0 < (x + y)/2 < \sqrt{xy}$. Using Proposition 1.1.8, we know that
+Suppose to the contrary that $\sqrt{xy} > (x+y)/2$. Given $x >0$ and $y > 0$, we know that $(x + y)/2 > 0$. We can then assert that $0 < (x + y)/2 < \sqrt{xy}$. Using Proposition 1.1.8 and some algebraic manipulation, we know that
 
 $$\begin{align}
-\left( \frac{x+y}{2} \right) < xy
+\left( \frac{x+y}{2} \right)^2 &< xy
+(x + y)^2 &< 4xy
+x^2 + 2xy + y^2 &< 4xy
+x^2 - 2xy + y^2 &< 0
+(x - y)^2 &< 0.
 \end{align}$$
+
+If $x = y$, then $(x - y)^2 = 0$ and $0 < 0$, a contradiction. If $x \ne y$, then $x - y \ne 0$ and we have a contradiction to Proposition 1.1.8.
+
