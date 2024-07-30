@@ -77,6 +77,8 @@ Let $A$ and $B$ be two nonempty bounded sets of real numbers. Let $C := \set{a+b
 
 $$ \sup C = \sup A + \sup B \textrm{    and    } \inf C = \inf A + \inf B.$$
 
+### Solution
+
 We know $a \le \sup A$ and $b \le \sup B$ for any $a \in A$ and any $b \in B$. Combining these inequalities together through addition, we see that $a + b \le \sup A + \sup B$ for any $a \in A$ and any $b \in B$. That is to say $\sup A + \sup B$ is an upper bound of $C$, so $\sup C \le \sup A + \sup B$.
 
 On the other hand, for any bound $c$ of $C$ and any arbitrary elements $a \in A$ and $b \in B$, we have $a + b \le c$. Thus, $a \le c - b$ for each $a \in A$ and $c - b$ is an upper bound of $A$. This then means $\sup A \le c - b$. We can then show $b \le c - \sup A$ for each $b \in B$, meaning $c - \sup A$ is an upper bound for $B$. Again, we can then deduce $\sup B \le c - \sup A$, or $\sup A + \sup B \le c$. Given $c$ may be any bound, we assert $\sup A + \sup B \le \sup C$. By these two inequalities, we have $\sup C = \sup A + \sup B$.
