@@ -42,3 +42,17 @@ By Exercise 2 above, we know if $A$ is finite, then $\sup A \in A$. By contrapos
 \* - Suppose to the contrary we encounter an element $x_n$ where there exists no other element in $A$ that is strictly between $x_n$ and $\sup A$. No element of $A$ may be greater than or equal to $\sup A$, so it must be that $x_n \ge a$ for each $a \in A,$ and $x_n$ is an upper bound for $A$. This then implies $x_n \ge \sup A$, an absurdity.
 
 ** - For injectivity, if $f(x_i) = f(x_j)$ then $i = j$ and $x_i = x_j$. For subjectivity, if $k \in \mathbb{N}$ then $f(x_k) = k$.
+
+## Exercise 5
+
+### Problem
+
+Prove the arithmetic-geometric mean inequality. For two positive real numbers $x, y,$
+
+$$ \sqrt{xy} \le \frac{x+y}{2}.$$
+
+Furthermore, equality occurs if and only if $x = y$.
+
+### Solution
+
+Suppose to the contrary that $\sqrt{xy} > (x+y)/2$. 
