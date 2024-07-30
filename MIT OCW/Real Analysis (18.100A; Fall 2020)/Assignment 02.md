@@ -67,4 +67,4 @@ x^2 - 2xy + y^2 &< 0 \\
 
 If $x = y$, then $(x - y)^2 = 0$ and $0 < 0$, a contradiction. If $x \ne y$, then $x - y \ne 0$ and we have a contradiction to Proposition 1.1.8.
 
-For the later statement, suppose $\sqrt{xy} = (x + y)/2$. Not unlike our work before (swapping the inequality for an equality), we may show that $(x - y)^2 = 0$, which then implies $x - y =0$, or $x = y$. Suppose $x = y$, then $\sqrt{xy} = \sqrt{xx} = x$ and $(x + y)/2 = (x + x)/2 = x$. That is $\sqrt{xy} = (x +y)/2$ as desired.
+For the later statement, suppose $\sqrt{xy} = (x + y)/2$. Not unlike our work before (swapping the inequality for an equality), we may show that $(x - y)^2 = 0$, which then implies $x - y =0$, or $x = y$. Now suppose $x = y$, then $\sqrt{xy} = \sqrt{xx} = x$ and $(x + y)/2 = (x + x)/2 = x$. That is $\sqrt{xy} = (x +y)/2$ as desired.
