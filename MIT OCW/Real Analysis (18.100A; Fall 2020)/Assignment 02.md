@@ -84,3 +84,29 @@ We know $a \le \sup A$ and $b \le \sup B$ for any $a \in A$ and any $b \in B$. C
 On the other hand, for any bound $c$ of $C$ and any arbitrary elements $a \in A$ and $b \in B$, we have $a + b \le c$. Thus, $a \le c - b$ for each $a \in A$ and $c - b$ is an upper bound of $A$. This then means $\sup A \le c - b$. We can then show $b \le c - \sup A$ for each $b \in B$, meaning $c - \sup A$ is an upper bound for $B$. Again, we can then deduce $\sup B \le c - \sup A$, or $\sup A + \sup B \le c$. Given $c$ may be any bound, we assert $\sup A + \sup B \le \sup C$. By these two inequalities, we have $\sup C = \sup A + \sup B$.
 
 A similar style argument may be used to show that $\inf C = \inf A + \inf B$.
+
+## Exercise 7
+
+### Problem
+
+Let
+
+$$E = \set{x \in \mathbb{R} : x > 0 and x^3 < 2}.$$
+
+Prove that $E$ is bounded above. Let $r = \sup E$. Prove that $r >0$ an $r^3=2$. 
+
+### Solution
+
+Suppose $x > 0$. If $x \ge 2$, then $x^3 \ge 8$. By contrapositive, if $x^3 < 2 < 8$ then $x < 2$. That is to say, members of $E$ are bounded above. Further, we have $1 \in E$ as $1 > 0$ and $1^3 = 1 < 2$, so $E$ is nonempty. Given $E$ is bounded above, we know that $r = \sup E$ exists.
+
+Now take a positive real $s$ such that $s^3 < 2$, then $s \in E$. Given $s^3 < 2$, then $s^3 - 2 < 0$. Further, we may choose a positive real $h$ such that $h < \frac{2-s^3}{3s^2+3s+1}$. We know such a real exists given $\frac{2-s^3}{3s^2+3s+1}$ is positive. We may also assume $h < 1$. Estimate,
+
+$$\begin{align}
+(s + h)^3 - s^3 &= 3s^2h + 3sh^2+h^3 \\
+                &= h(3s^2+3sh+h^2) \\
+                &< h(3s^2+3s+1) \tag*{h<1}\\
+                &< 2 - s^3 \tag*{h < \frac{2-s^3}{3s^2+3s+1}}\\
+\end{align}$$
+
+
+
