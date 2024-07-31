@@ -110,7 +110,7 @@ $$\begin{align}
 
 Then, $(s + h)^3 < 2$. Given $s + h>0$, we have $s + h \in E$. That is to say $s$ cannot be a bound for $E$, so any bound $\beta$ of $E$ must satisfy $\beta^3 \ge 2$. In particular, $r^3 \ge 2$.
 
-Now take a positive real $s$ such that $s^3 > 2$. Further, choose $h < \frac{s^3-2}{3s^2+1}$. We may assume $h$ is positive given $s^3 - 2 > 0$ and $3s^2 + 1$ are positive. At the same time, we may assume $h < 1$. We then have
+Now take a positive real $s$ such that $s^3 > 2$. Further, choose $h < \frac{s^3-2}{3s^2+1}$. We may assume $h$ is positive given $s^3 - 2$ and $3s^2 + 1$ are positive. At the same time, we may assume $h < 1$. We then have
 
 $$\begin{align}
 s - h &> s - \frac{s^3-2}{3s^2+1} \\
