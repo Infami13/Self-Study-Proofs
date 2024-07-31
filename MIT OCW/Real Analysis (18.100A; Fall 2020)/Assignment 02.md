@@ -127,4 +127,4 @@ s^3 - (s-h)^3 &= 3s^2h - 3sh^2 +h^3 \\
               &< s^3 - 2 \tag*{$\left( h < \frac{s^3-2}{3s^2+1} \right).$} \\
 \end{align}$$
 
-We then find, $(s-h)^3 > 2$. That is to say, for any upper bound $\beta$ such that $\beta^3 > 2$, we may find another upper bound $\gamma$ such that $\gamma < \beta$. In turn, $r^3 \le 2$. By our inequalities, we have $r^3 = 2$ as desired.
+We then see $(s-h)^3 > 2$. That is to say, for any upper bound $\beta$ such that $\beta^3 > 2$, we may find another upper bound $\gamma$ such that $\gamma < \beta$. In turn, $r^3 \le 2$. By our inequalities, we have $r^3 = 2$ as desired.
