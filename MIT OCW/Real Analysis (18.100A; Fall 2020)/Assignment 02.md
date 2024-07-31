@@ -105,7 +105,7 @@ $$\begin{align}
 (s + h)^3 - s^3 &= 3s^2h + 3sh^2+h^3 \\
                 &= h(3s^2+3sh+h^2) \\
                 &< h(3s^2+3s+1) \tag*{$(h<1)$}\\
-                &< 2 - s^3 \tag*{$\right( h < \frac{2-s^3}{3s^2+3s+1}\left)$}\\
+                &< 2 - s^3 \tag*{$\left( h < \frac{2-s^3}{3s^2+3s+1}\right)$}\\
 \end{align}$$
 
 
