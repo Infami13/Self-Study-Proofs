@@ -108,5 +108,23 @@ $$\begin{align}
                 &< 2 - s^3 \tag*{$\left( h < \frac{2-s^3}{3s^2+3s+1}\right)$}\\
 \end{align}$$
 
+Then, $(s + h)^3 < 2$. Given $s + h>0$, we have $s + h \in E$. That is to say $s$ cannot be a bound for $E$, so any bound $\beta$ of $E$ must satisfy $\beta^3 \ge 2$. In particular, $r^3 \ge 2$.
 
+Now take a positive real $s$ such that $s^3 > 2$. Further, choose $h < \frac{s^3-2}{3s^2+1}$. We may assume $h$ is positive given $s^3 - 2 > 0$ and $3s^2 + 1$ are positive. At the same time, we may assume $h < 1$. We then have
 
+$$\begin{align}
+s - h &> s - \frac{s^3-2}{3s^2+1} \\
+      &= \frac{2s^3+s+2}{3s^2+1} \\
+      &> 0.
+\end{align}$$
+
+We may further estimate
+
+$$\begin{align}
+s^3 - (s-h)^3 = 3s^2h - 3sh^2 +h^3 \\
+              < 3sh + h^3 \tag*{$h^2 > 0$} \\
+              < h(3s + 1) \tag*{$h^3 < h^2$} \\
+              < s^3 - 2 \tag*{$h < \frac{s^3-2}{3s^2+1}$}. \\
+\end{align}$$
+
+We then find, (s-h)^3 > 2. That is to say, for any upper bound $\beta$ such that $\beta^3 > 2$, we may find another upper bound $\gamma$ such that $\gamma < \beta$. In turn, $r^3 \le 2$. By our inequalities, we have $r^3 = 2$ as desired.
