@@ -123,7 +123,7 @@ We may further estimate
 $$\begin{align}
 s^3 - (s-h)^3 &= 3s^2h - 3sh^2 +h^3 \\
               &< 3sh + h^3 \tag*{$(h^2 > 0)$} \\
-              &< h(3s + 1) \tag*{$(h^3 < h^2)$} \\
+              &< h(3s + 1) \tag*{$(h^3 < h)$} \\
               &< s^3 - 2 \tag*{$\left( h < \frac{s^3-2}{3s^2+1} \right).$} \\
 \end{align}$$
 
