@@ -4,7 +4,7 @@ Suppose $x, y \in \mathbb{R}$ and $x < y$. Prove that there exists $i \in \mathb
 
 ### Lemma
 
-If $x \in \mathbb{Q}$ and $y \in \mathbb{R} \setminus mathbb{Q}$, then $x + y$ is irrational. Further, if $x \ne 0$ then $xy$ is also irrational.
+If $x \in \mathbb{Q}$ and $y \in \mathbb{R} \setminus \mathbb{Q}$, then $x + y$ is irrational. Further, if $x \ne 0$ then $xy$ is also irrational.
 
 *Proof*. For our first statement, suppose $x + y$ is rational. Given $\mathbb{Q}$ is a field, then $(-x) + x + y = y$ is also rational, a contradiction.
 
