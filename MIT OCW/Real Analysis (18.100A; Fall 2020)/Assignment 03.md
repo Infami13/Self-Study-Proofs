@@ -1,14 +1,14 @@
 ## Exercise 1
 
-Suppose $x, y \in \mathcal{R}$ and $x < y$. Prove that there exists $i \in \mathcal{R} \setminus \mathcal{Q}$ such that $x < i < y$.
+Suppose $x, y \in \mathbb{R}$ and $x < y$. Prove that there exists $i \in \mathbb{R} \setminus \mathbb{Q}$ such that $x < i < y$.
 
 ### Lemma
 
-If $x \in \mathcal{Q}$ and $y \in \mathcal{R} \setminus mathcal{Q}$, then $x + y$ is irrational. Further, if $x \ne 0$ then $xy$ is also irrational.
+If $x \in \mathbb{Q}$ and $y \in \mathbb{R} \setminus mathbb{Q}$, then $x + y$ is irrational. Further, if $x \ne 0$ then $xy$ is also irrational.
 
-*Proof*. For our first statement, suppose $x + y$ is rational. Given $\mathcal{Q}$ is a field, then $(-x) + x + y = y$ is also rational, a contradiction.
+*Proof*. For our first statement, suppose $x + y$ is rational. Given $\mathbb{Q}$ is a field, then $(-x) + x + y = y$ is also rational, a contradiction.
 
-For our second statement suppose $x \ne 0$ and $xy$ is rational. Then $x$ is invertible, and we can also attest $x^{-1}xy = y$ is rational, a contradiction.
+For our second statement, suppose $x \ne 0$ and $xy$ is rational. Then $x$ is invertible, and we can also attest $x^{-1}xy = y$ is rational, a contradiction.
 
 ### Solution
 
