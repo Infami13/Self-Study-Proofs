@@ -8,7 +8,7 @@ If $x \in \mathbb{Q}$ and $y \in \mathbb{R} \setminus \mathbb{Q}$, then $x + y$ 
 
 *Proof*. For our first statement, suppose $x + y$ is rational. Given $\mathbb{Q}$ is a field, then $(-x) + x + y = y$ is also rational, a contradiction.
 
-For our second statement, suppose $x \ne 0$ and $xy$ is rational. Then $x$ is invertible, and we can also attest $x^{-1}xy = y$ is rational, a contradiction.
+For our second statement, suppose $x \ne 0$ and $xy$ is rational. Then $x$ is invertible, and we can also attest $x^{-1}xy = y$ is rational, another contradiction.
 
 ### Solution
 
