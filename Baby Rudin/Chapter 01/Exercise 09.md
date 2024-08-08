@@ -4,4 +4,4 @@ Suppose $z = a + bi$, $w = c + di$. Define $z < w$ if $a < c$, and also if $a = 
 
 ### Solution
 
-To show all members of the complex numbers are comparable under this order, suppose to the contrary that none of the statements $z < w$, $z = w$, $z > w$ is true. Given $z \ne w$, we have $a \ne c$. Further, $z \nless w$ implies $a \nless c$. That is to say $a \ge c$. But $a$ cannot equal $c$ by our hypothesis, so $a > c$. By a similar argument, we can show $z \ngtr w$ implies $a < c$.
+To show all members of the complex numbers are comparable under this order, suppose to the contrary that none of the statements $z < w$, $z = w$, $z > w$ is true. Given $z \ne w$, we have $a \ne c$. Further, $z \nless w$ implies $a \nless c$. That is to say $a \ge c$. But $a$ cannot equal $c$ so $a > c$. By a similar argument, we can show $z \ngtr w$ implies $a < c$. We then have $a < c$ and $a > c$ for members $a, c \in (\mathbb{R}, <)$, a contradiction. 
