@@ -1,6 +1,6 @@
 ## Exercise 9
 
-Suppose $z = a + bi$, $w = c + di$. Define $z < w$ if $a < c$, and also if $a = c$ but $b < d$ . Prove that this turns the set of all complex numbers into an ordered set. Does this ordered set have the least-upper-bound property?
+Suppose $z = a + bi$, $w = c + di$. Define $z < w$ if $a < c$, and also if $a = c$ but $b < d.$ Prove that this turns the set of all complex numbers into an ordered set. Does this ordered set have the least-upper-bound property?
 
 ### Solution
 
