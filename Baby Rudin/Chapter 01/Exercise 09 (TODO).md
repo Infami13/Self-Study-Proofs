@@ -5,3 +5,5 @@ Suppose $z = a + bi$, $w = c + di$. Define $z < w$ if $a < c$, and also if $a = 
 ### Solution
 
 We first show exactly one statement of $z < w$, $z = w$, $z > w$ is true. We know $R$ is ordered under $<$, so one and only one of the statements $a < c$, $a =c$, $a >c$ holds. Suppose $a < c$, we then immediately have $z < w$ by our order for complex numbers. By contrapositive, $z \ge w$ implies $a \ge c$. That is to say only $z < w$ holds as either $z = w$ or $z > w$ would mean $a \ge c$, a contradiction. With similar work, we may show $a > c$ implies $z > w$ and only $z > w$ is true. We are then left with the case $a =c$. If $b < d$ then $z < w$. Further, $z \ge w$ would imply the absurdity $a \ne c$ or $b \ge d$, so only $z < w$ holds. With similar style arguments, we may show $b > d$ ensures only $z > w$ is true; $b = d$ implies only $z = w$ holds.
+
+Let $v = e + fi$; we proceed by showing the transitive property of $<$ with complex numbers. Suppose $z < w$ and $w < v$. Given $z < w$, then $a \le c$
