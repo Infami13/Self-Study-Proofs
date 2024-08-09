@@ -10,7 +10,7 @@ Let $v = e + fi$; we proceed by showing the transitive property of $<$ with comp
 
 To show this ordered set does not have the least-upper-bound property, take the set
 
-$$A = \Set{ \frac{n}{n+1} \middle| n \in \mathbb{N} }.$$ 
+$$A = \Set{ \frac{n}{n+1} : n \in \mathbb{N} }.$$ 
 
 For real numbers, we know $n/n+1 < 1$
 
