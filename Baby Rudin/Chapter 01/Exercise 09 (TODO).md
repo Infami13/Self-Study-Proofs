@@ -12,6 +12,8 @@ To show this ordered set does not have the least-upper-bound property, take the 
 
 $$A = \Set{ \frac{n}{n+1} \;\middle|\; n \in \mathbb{N} }.$$
 
+$$\sup \biggl\{\, \sum_{x \in F} a(x) \mathrel{\Big|} F \subset X,\, |F| < \infty \,\biggr\},$$
+
 For real numbers, we know $n/n+1 < 1$
 
 
