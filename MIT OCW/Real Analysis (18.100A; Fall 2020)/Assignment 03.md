@@ -22,7 +22,7 @@ Lastly, if $x$ and $y$ are rational, we know $0 < y - x$. By the Archimedean pro
 
 Let $E \subset (0, 1)$ be the set of all real numbers with decimal representation using only the digits $1$ and $2$:
 
-$$E:= \Set{x \in (0, 1) : \forall j \in N, \exists d_{-j} \in \Set{1, 2} \textrm{ such that } x = 0.d_{-1}d_{-2}...}$$
+$$E \coloneq \Set{x \in (0, 1) : \forall j \in N, \exists d_{-j} \in \Set{1, 2} \textrm{ such that } x = 0.d_{-1}d_{-2}...}$$
 
 Prove that $|E| = |\mathcal{P} (N)|. *Hint*: Consider the function $f:E \rightarrow \mathcal{P} (N)$ such that if $x\in E, x=0.d_{-1}d_{-2}...$,
 
