@@ -27,3 +27,4 @@ $$E \coloneq \Set{x \in (0, 1) : \forall j \in N, \exists d_{-j} \in \Set{1, 2} 
 Prove that $|E| = |\mathcal{P} (N)|. *Hint*: Consider the function $f:E \rightarrow \mathcal{P} (N)$ such that if $x\in E, x=0.d_{-1}d_{-2}...$,
 
 $$f(x) = \Set{j\in N : d_{-j} = 2}.$$
+$\coloneq$
