@@ -18,3 +18,8 @@ If $x$ and $y$ are both irrational, the Archimedean property of the reals assert
 
 Lastly, if $x$ and $y$ are rational, we know $0 < y - x$. By the Archimedean property, we have $n(y -x) > \sqrt{2}$ for some natural $n$. That is, $ny > \sqrt{2} + nx$. Choose $i = \sqrt{2}/n + x$ so that $x < i < y$. Recall $1/n$ and $x$ are rational, so $i$ must be irrational by our lemma.
 
+## Exercise 2
+
+Let $E \subset (0, 1)$ be the set of all real numbers with decimal representation using only the digits $1$ and $2$:
+
+$$E:= \Set{x \in (0, 1) : \foreach j \in N, \some d_{-j} \in \Set{1, 2} such that }$$
