@@ -14,4 +14,4 @@ $$X = \Set{ \frac{n}{n+1} \mid n \in \mathbb{N} }.$$
 
 Indeed, $x \le 1$ for each $x \in X$ so $X$ is bounded above. Further, for any bound $z = a + bi$ we must have $a \ge 1$ (otherwise for sufficiently large $n$ we may find $a < n/n+1$)*. Nevertheless, if $z$ is a bound for $X$ then $w = a + (b - 1)i$ is also a bound for $X$, yet clearly $w < z$. That is to say, for any bound of $X$ we may construct another bound that is strictly less and $X$ has no least upper bound.
 
-\* - This follows from the Archimedean property of the reals; recall $a$ and $n/n+1$ are real. If $a < n/n+1$ under the context of real order, then $z < x$ for some $x \in X$ under the context of our complex order (a contradiction to the idea $z$ is a bound for $X$).
+\* - This follows from the Archimedean property of the reals; recall $a$ and $n/n+1$ are real. If $a < n \ldiv n+1$ under the context of real order, then $z < x$ for some $x \in X$ under the context of our complex order (a contradiction to the idea $z$ is a bound for $X$).
