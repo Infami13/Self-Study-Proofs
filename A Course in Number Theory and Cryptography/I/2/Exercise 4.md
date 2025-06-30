@@ -1,8 +1,24 @@
 # Lemma
 
-If $\lfloor n / p \rfloor = q$, then $n = qp + r$ for some $0 \le r \lt p$. Effectively, floor division refers to the quotient in Euclidean division.
+**Lemma.** If $\lfloor n / p \rfloor = q$, then $n = qp + r$ for some integer $r$ such that $0 \le r \lt p$. Effectively, floor division refers to the quotient in Euclidean division.
 
-*Proof.* Suppose $\lfloor n / p \rfloor = q$. Then $q$ is the greatest integer such that $q \le n/p$
+*Proof.* Suppose $\lfloor n / p \rfloor = q$. Then $q$ is the greatest integer such that $q \le n/p,$ or $qp \le n.$ Simultaneously, by Euclidean division, we may express $n = q \prime p + r$ for some $r$ such that $0 \le r \lt p.$ Overall, we have
+
+$$qp \le n = q \prime p + r \lt q \prime p + p.$$
+
+By subtracting $q \prime p$ from all sides of our inequality, we see that
+
+$$qp - q \prime p \le r \lt p$$
+$$(q - q \prime)p \le r \lt p.$$
+
+Immediately, we must have $q - q \prime \le 0$, otherwise we arrive at a contradiction ($r$ cannot be simultaneously greater than or equal to a positive multiple of $p$ and less than $p$). However, if $q - q \prime \lt 0$ then $q \lt q \prime.$ Given $q$ is the greatest integer such that $q \le n/p,$ then $n/p > q \prime$. This then implies
+
+$$
+\begin{align}
+n &= qp \\
+
+\end{align}
+$$
 
 # Part A
 
