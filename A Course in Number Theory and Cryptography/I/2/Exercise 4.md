@@ -11,14 +11,17 @@ By subtracting $q \prime p$ from all sides of our inequality, we see that
 $$qp - q \prime p \le r \lt p$$
 $$(q - q \prime)p \le r \lt p.$$
 
-Immediately, we must have $q - q \prime \le 0$, otherwise we arrive at a contradiction ($r$ cannot be simultaneously greater than or equal to a positive multiple of $p$ and less than $p$). However, if $q - q \prime \lt 0$ then $q \lt q \prime.$ Given $q$ is the greatest integer such that $q \le n/p,$ then $n/p > q \prime$. This then implies
+Immediately, we must have $q - q \prime \le 0$, otherwise we arrive at a contradiction (we cannot have $r$ greater than or equal to a positive multiple of $p$ and $r \lt p$). However, if $q - q \prime \lt 0$ then $q \lt q \prime.$ Given $q$ is the greatest integer such that $q \le n/p,$ then $n/p \lt q \prime$. This then implies the contradiction
 
 $$
-\begin{align}
-n &= qp \\
-
-\end{align}
+\begin{align*}
+n &< q \prime p \\
+q \prime p + r &< q \prime p \\
+r &< 0.
+\end{align*}
 $$
+
+We are left with $q - q \prime = 0$, or $q = q \prime$ and $n = qp + r$.
 
 # Part A
 
