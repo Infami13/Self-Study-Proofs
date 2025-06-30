@@ -21,7 +21,7 @@ r &< 0.
 \end{align*}
 $$
 
-We are left with $q - q \prime = 0$, or $q = q \prime$ and $n = qp + r$.
+We are left with $q - q \prime = 0$, or $q = q \prime$. Ultimately, $n = q \prime p + r = qp + r$.
 
 # Part A
 
