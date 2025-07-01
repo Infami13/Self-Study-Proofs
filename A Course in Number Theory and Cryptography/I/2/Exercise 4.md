@@ -25,7 +25,7 @@ We are left with $q - q \prime = 0$, or $q = q \prime$. Ultimately, $n = q \prim
 
 # Part A
 
-
+Take $n! = 1 \cdot 2 \cdot 3 \cdots n$. Notice that $n!$ is the product of $n$ and all positive integers less than $n$. That is to say, $m|n$ whenever $1 \le m \le n$. To find the power of a prime $p$ that exactly divides $n!$, we first count how many integers between $2$ and $n$ are divisible by $p$. To do this, we first express $n = qp + r$ for some $0 \le r \lt p$ and consider the set $P_1 = \set{p, 2p, 3p,\dots, qp }.$ 
 
 
 
