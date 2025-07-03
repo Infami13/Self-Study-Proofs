@@ -25,9 +25,15 @@ We are left with $q - q \prime = 0$, or $q = q \prime$. Ultimately, $n = q \prim
 
 # Part A
 
-Take $n! = 1 \cdot 2 \cdot 3 \cdots n$. Notice that $n!$ is the product of $n$ and all positive integers less than $n$. That is to say, $m|n$ whenever $1 \le m \le n$. To find the power of a prime $p$ that exactly divides $n!$, we first count how many integers between $2$ and $n$ are divisible by $p$. To do this, we first express $n = qp + r$ for some $0 \le r \lt p$ and consider the set $P_1 = \set{p, 2p, 3p,\dots, qp }.$ 
+Take $n! = 1 \cdot 2 \cdot 3 \cdots n$. Notice that $n!$ is the product of $n$ and all positive integers less than $n$. That is to say, $m|n$ whenever $1 \le m \le n$. At the same time, we may express $n = qp + r$ for some integers $q$ and $r$ such that $0 \le r \lt p$. 
+
+Consider the set $A = \set{ap \mid 1 \le a \le q}$. For any integer $m$, if $m$ is a positive factor of $n!$ and a positive multiple of $p$, then $1 \le m \le n$ and $m = ap$ for some $a \ge 1$. Given $1 \le a$, we first see that $p \le ap = m.$ We may also verify that $m \le qp.^†$ That is to say $p \le ap \le qp$, which implies $1 \le a \le q$ and $m \in A$. 
 
 
+
+To find the power of a prime $p$ that exactly divides $n!$, we first count how many integers between $2$ and $n$ are divisible by $p$. To do this, we first express $n = qp + r$ for some $0 \le r \lt p$ and consider the set $P_1 = \set{p, 2p, 3p,\dots, qp }.$ 
+
+† - 
 
 ### Scrap
 We proceed with induction. For our base case where $n = 2$, we have $n! = 2! = 2$. When $p = 2$, we can verify that $\alpha = \lfloor n/p \rfloor + \lfloor n/p^2 \rfloor \cdots  = 1$. Indeed $p^\alpha | 2$ but $p^{\alpha + 1} = 4 \nmid 2$. Therefore $p^\alpha \parallel 2$. For any other prime $q$, we see that $q > n!$ so $q \nmid n!.$ Further $\lfloor n/{q} \rfloor + \lfloor n/{q}^2 \rfloor \cdots  = 0$. That is to say ${q}^0 \parallel n!.$
