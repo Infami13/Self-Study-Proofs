@@ -1,3 +1,5 @@
+## Exercise 19
+
 Let $P(W), P(M), P(L)$ denote the probability a computer owner uses Windows, Macintosh, and Linux respectively. As such,
 
 $$
