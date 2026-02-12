@@ -9,4 +9,4 @@ $$
 
 Additionally, note that $155 \textrm{ mod } 10 = 5$.
 
-Suppose that the error is in position $2$. We may substitute $4$ in position $2$ with any other single digit number, say $4 + n$ such that $0 \le 4 + n \le 10$.
+Suppose that the error is in position $2$. We may substitute $4$ in position $2$ with any other single digit number, say $4 + n$ such that $0 \le 4 + n \le 9$.
