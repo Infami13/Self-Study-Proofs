@@ -1,0 +1,3 @@
+# Exercise 19
+
+We claim a cyclic group $G$ equipped with an element of infinite order only has one element of finite order, namely the identity $e$. We proceed with proof by contradiction. Suppose $G$ has a non-identity element of finite order, say $a \in G$ and $|a|=k$. Given $G$ also has an element of infinite order, it must have infinite order itself. Additionally, if $G$ is cyclic, then it has some generator, say $g$, such that $G = \langle g \rangle$. As $g$ is a generator, there is some non-zero integer $n$ such that $g^n = a$. However, observe that $g^{nk} = (g^n)^k = a^k = e$ in case $n > 0$, and $g^{-nk} = (g^{nk})^{-1} = e^{-1} = e$ in case $n < 0$; both cases are impossible given $g$ has infinite order.
